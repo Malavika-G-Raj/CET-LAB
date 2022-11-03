@@ -1,3 +1,3 @@
 a=input("\n Enter the file name")
 f=a.split('.')
-print(f)
+print(f[1])
