@@ -1,5 +1,5 @@
-a=list(input("\n Ente the list1\n")
-b=list(input("\nEnter the list2\n")
+a=list(map(int,input("\n Ente the list1\n")))
+b=list(map(int,input("\nEnter the list2\n")))
 print("List 1:",a)
 print("List 2:",b)
 print("\n 1.Check whether 2 list are of same length : \n 2.Check whether 2 list are of same value : \n 3.Check whether any value occurs in both the list : \n 4.Exit")
